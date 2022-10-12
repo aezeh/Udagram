@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import {filterImageFromURL, deleteLocalFiles} from './util/util';
 import {Router, Request, Response} from 'express'
+import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
 (async () => {
 
@@ -45,9 +45,6 @@ app.get('/filteredimage', async (req: Request, res: Response)=> {
 });
 
 
-
-
-)
   //! END @TODO1
   
   // Root Endpoint
